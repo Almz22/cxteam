@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'AldaPro';
+  src: url('../assets/fonts/alda/AldaPro.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/alda/AldaPro.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/alda/AldaPro.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/alda/AldaPro.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../assets/fonts/alda/AldaPro.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/alda/AldaPro.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'EffraPro';
+  src: url('../assets/fonts/effra/EffraPro.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/effra/EffraPro.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/effra/EffraPro.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/effra/EffraPro.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../assets/fonts/effra/EffraPro.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/effra/EffraPro.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* ---------------------------------------------Typography------------------------------------------------*/
+body {
+
+    font-family: "EffraPro","Tahoma", sans-serif;
+}
+.h1, .h2, h1, h2 {
+	    font-family: "AldaPro", "Georgia",serif;
+}
+.h3, .h4, .h5, .h6, h3, h4, h5, h6 {
+	      font-family: "EffraPro","Tahoma", sans-serif;
+}
+.display-1, .display-2, .display-3, .display-4 {
+	font-family: "AldaPro", "Georgia",serif;
+}
+.blockquote{
+	font-size: 30px;
+    line-height: 40px;
+    	font-family: "AldaPro", "Georgia",serif;
+}
